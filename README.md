@@ -20,7 +20,7 @@ Earth Observatory Natural Event Tracker [(EONET)](https://eonet.gsfc.nasa.gov/) 
 ![](./images/prefect_run.png)
 
 ### Analytics
-An Evidence.dev page queries the database to provide analytical information regarding event types, trends, and locations.
+An Evidence.dev page queries the database to provide analytical information regarding event types, trends, and locations. See the [Evidence.dev](https://gmodery.github.io/EONET-ETL/) page for details.
 
 ### Additional Development
 Additional development is enabled by the FastAPI module that serves the processed API data. This allows for the development of other projects that may need to access this data already in its cleaned format.
