@@ -1,0 +1,32 @@
+models:
+  - name: stg_eonet_events
+    columns:
+      - name: event_id
+        tests:
+          - unique
+          - not_null
+      - name: event_category
+        tests:
+          - not_null
+
+  - name: stg_eonet_geometries
+    columns:
+      - name: event_id
+        tests:
+          - not_null
+      - name: event_latitude
+        tests:
+          - not_null
+      - name: event_longitude
+        tests:
+          - not_null
+
+  - name: stg_category_info
+    columns:
+      - name: category_id
+        tests:
+          - unique
+          - not_null
+      - name: category_title
+        tests:
+          - not_null

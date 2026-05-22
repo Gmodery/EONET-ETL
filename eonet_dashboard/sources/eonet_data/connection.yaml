@@ -1,0 +1,6 @@
+# This file was automatically generated
+name: eonet_data
+type: duckdb
+options:
+  connector: duckdb
+  filename: ../../eonet_data.db

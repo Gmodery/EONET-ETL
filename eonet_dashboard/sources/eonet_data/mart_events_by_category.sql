@@ -1,0 +1,1 @@
+SELECT * FROM mart_events_by_category

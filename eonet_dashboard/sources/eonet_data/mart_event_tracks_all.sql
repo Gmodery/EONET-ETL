@@ -1,0 +1,1 @@
+SELECT * FROM mart_event_tracks_all

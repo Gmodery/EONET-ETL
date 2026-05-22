@@ -1,0 +1,1 @@
+SELECT * FROM mart_latest_open_observations
